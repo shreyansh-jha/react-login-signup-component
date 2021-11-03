@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-repeat: no-repeat;
+  background: linear-gradient(to top right, rgb(68, 68, 68) 0%, rgb(68, 68, 68) 50%, rgb(82, 151, 255) 50%, rgb(82, 151, 255) 100% );
+  height: 100vh;
+}
+h1, label, input, div, p {
+  margin: 0;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+#left-column {
+  background-color: rgb(172, 126, 93);
+  margin-right: 40px;
+}
+.login-component {
+  background-color: salmon;
+}
+.Notification {
+  padding: 60px 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+svg {
+  margin-bottom: 15px;
+}
+.notification-message {
+  font-weight: 500;
+  color: rgb(61, 61, 61);
+}
+#signup-component {
+  background-color: rgb(255, 255, 255);
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.input {
+  display: block;
+}
+#user-name {
+  margin-top: 25px;
+}
+#user-email {
+  margin-top: 25px;
+}
+#user-password {
+  margin-top: 25px;
+}
+.radio-button {
+  margin-top: 25px;
+  color: blue;
+  margin-right: 5px;
+}
+button {
+  display: block;
+  margin-top: 25px;
+  padding: 10px 20px;
+  background-color: rgb(58, 136, 252);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.enquiry {
+  margin-top: 25px;
+}
+.label, .enquiry {
+  font-size: 11px;
+  font-weight: 500;
+  color: rgb(114, 113, 113);
+}
+.heading {
+  font-weight: 700;
+  color: rgb(61, 61, 61);
+  font-size: 30px;
+}
+span, a {
+  color: royalblue;
+  font-weight: 600;
+  text-decoration: none;
+}
+.input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid rgb(179, 179, 179);
+  outline: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(61, 61, 61);
+}
+.login-component {
+  background-color: rgb(255, 255, 255);
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+}
+
+#user-email2 {
+  margin-top: 25px;
+}
+#user-password2 {
+  margin-top: 25px;
+}
+@media screen and (max-width: 800px) {
+  body {
+    background: violet;
+  }
+  #left-column, #right-column {
+    margin: 20px 15px;
+  }
+  .Notification {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  svg {
+    width: 2.5em;
+    length: 2em;
+    margin-bottom: 0px;
+  }
+  .notification-message {
+    font-size: 14px;
+  }
+  #signup-component, .login-component {
+    padding: 25px;
+  }
+  .heading {
+    line-height: 1.2em;
+    font-size: 22px;
+  }
+  #user-name {
+    margin-top: 20px;
+  }
+  #user-email {
+    margin-top: 20px;
+  }
+  #user-password {
+    margin-top: 20px;
+  }
+  .input {
+    padding: 5px 0;
+  }
+}
